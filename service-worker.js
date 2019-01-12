@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/gustavouribe/crypto-cholo3000/precache-manifest.6f9a22cea89d919511d93347298acbab.js"
+  "/crypto-cholo3000/precache-manifest.22acbe87838ba88b7c356ea96663e5b8.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/gustavouribe/crypto-cholo3000/index.html", {
+workbox.routing.registerNavigationRoute("/crypto-cholo3000/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
